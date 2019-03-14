@@ -1,0 +1,53 @@
+h3{font-size: 15px !important;color: #000;}
+.mt15{margin-top: 15px;}
+.login-form {
+  margin: 120px auto;
+  width: 330px;
+  background:#fff;
+  border-radius: 2px;
+  padding:32px;
+}
+.icon-username{
+  font-size: 16px;
+  color: #777;
+}
+.icon-password{
+  font-size: 16px;
+  color: #777;
+}
+.phone .el-input-group__append{
+  color: #fff;
+  background-color: #006ad6;
+  border-color: #006ad6;
+}
+.el-button{
+  padding: 8px 20px;
+  width: 100%;
+  margin-top: 25px;
+}
+.el-form-item{margin-bottom: 0;}
+input{height: 35px;line-height: 35px}
+.top-2{
+  margin: 0 auto;
+  padding: 20px;
+}
+.el-form-item__error{
+  padding-top: 0;
+}
+.mt10{margin-top: 12px}
+/*!*由于注册内容比较多,兼容小屏幕*!
+.sign-in{
+  input{height: 33px;line-height: 33px}
+  .login-form{
+    width: 360px !important;
+  }
+}*/
+.el-checkbox__input.is-checked+.el-checkbox__label {
+  color: #006ad6;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #006ad6;
+  border-color: #006ad6;
+}
+

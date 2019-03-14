@@ -1,0 +1,118 @@
+
+.nav {
+  width: 263px;
+  height: 100%;
+  float: left;
+  .nav-left {
+    height: 100%;
+    width: 72px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    background: #333640;
+    .bg-main{
+      width: 72px;
+      height: 84px;
+      margin-top: 0;
+      .logo{
+        padding: 30px 0 0 20px;
+        .header{
+          width: 32px;
+          height: 8px;
+          background: #fff;
+        }
+        .l-row{margin-top: 2px;}
+        .left{
+          width: 8px;
+          height: 20px;
+          background: #fff;
+        }
+        .right{
+          margin-left: 3px;
+          width: 21px;
+          height: 20px;
+          background: #fff;
+          float: left;
+        }
+      }
+    }
+    li {
+      cursor: pointer;
+      margin-top: 30px;
+      .char {
+        line-height: 24px;
+      }
+    }
+    .el-icon-star-on {
+      font-size: 24px;
+      color: #eb9e05;
+      margin-top: 20px;
+    }
+    .icon {
+      font-size: 24px;
+      color: #9fa4ad;
+    }
+  }
+  .nav-right {
+    height: 100%;
+    width: 190px;
+    float: left;
+    background: #fff;
+    h3 {
+      margin: 15px 0 0 20px;
+    }
+    .p-line {
+      width: 90%;
+      margin: 10px 0 0 5%;
+    }
+    .menu{
+      list-style: none;
+      position: relative;
+      margin: 0;
+      padding-left: 0;
+      background-color: #fff;
+      li{cursor: pointer;}
+      .nav-title{
+        height: 45px;
+        line-height: 45px;
+        margin-top: 20px;
+        list-style: none;
+        cursor: pointer;
+        clear: both;
+        position: relative;
+        -webkit-transition: border-color .3s, background-color .3s, color .3s;
+        transition: border-color .3s, background-color .3s, color .3s;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        white-space: nowrap;
+        h5{padding: 0 20px}
+      }
+      .icon-arrow {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        margin-top: -7px;
+        -webkit-transition: -webkit-transform .3s;
+        transition: -webkit-transform .3s;
+        font-size: 12px;
+      }
+      .icon-arrow-up {
+        -webkit-transform: rotateZ(180deg);
+        transform: rotateZ(180deg);
+      }
+      .nav-title:hover,  .item:hover {
+        outline: none;
+        background-color: #f0f4ff;
+      }
+      .item{
+        min-width: 190px;
+        height: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        clear: both;
+        .icon-nav02_number{line-height: 41px;}
+      }
+    }
+  }
+}

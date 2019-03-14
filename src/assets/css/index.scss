@@ -1,0 +1,25 @@
+@import "variate";
+// 主题色变量 ******* start **************
+$--color-primary: $main-color;
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";
+// 主题色变量 ******* end **************
+//  ******* start **************
+.title {font-weight: bold;color: $text-title-color;}
+h1, .h1 {font-size: $font-size-24;@extend .title}
+h2, .h2 {font-size: $font-size-20;@extend .title}
+h3, .h3 {font-size: $font-size-18;@extend .title;}
+h4, .h4 {font-size: $font-size-16;@extend .title;}
+
+h5, .h5 {font-size: $font-size-14;@extend .title;}
+
+//  ******* end **************
+.bg-main {background: $main-color;}
+.br {border-right: 1px solid $line-white-block-color;}
+.p-line {width: 100%;border-bottom: 1px solid $line-white-block-color;}
+
+// *****左侧导航**********************
+.nav .is-active{color: $main-color;}
+.nav .is-active .icon-nav02_number:before {color: $main-color;}
+.nav .is-active .icon:before {color: $main-color;}
+// *****左侧导航**********************

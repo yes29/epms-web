@@ -1,0 +1,3 @@
+/*! 版权所有，翻版必究 */
+webpackJsonp([6],{BxtL:function(e,t,n){"use strict";function o(e){n("UYa/")}Object.defineProperty(t,"__esModule",{value:!0});var s={data:function(){return{title:"管理员 --\x3e 架构设置"}},mounted:function(){},methods:{}},r=s,i=function(){var e=this,t=e.$createElement;return(e._self._c||t)("div",[e._v(e._s(e.title))])},a=[],c={render:i,staticRenderFns:a},u=c,l=n("C7Lr"),f=o,d=l(r,u,!1,f,"data-v-b9399eae",null);t.default=d.exports},Fe73:function(e,t,n){t=e.exports=n("UTlt")(!0),t.push([e.i,"","",{version:3,sources:[],names:[],mappings:"",file:"index.vue",sourceRoot:""}])},"UYa/":function(e,t,n){var o=n("Fe73");"string"==typeof o&&(o=[[e.i,o,""]]),o.locals&&(e.exports=o.locals);n("FIqI")("ec974f1c",o,!0,{})}});
+//# sourceMappingURL=6.acd1459999b32addd3ad.js.map
